@@ -1,0 +1,79 @@
+/*
+Theme Name: Automotive Theme
+Theme URI: https://pondoktutorial.com
+Author: Wiryo Saputra
+Author URI: https://pondoktutorial.com
+Description: This template for automotive listing parts
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: autotheme
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body{
+    background:#eee;
+    font-family: 'Roboto',sans-serif;
+}
+
+/*---------------
+Front Content
+----------------*/
+.front-content{
+    padding:10% 0;
+}
+.front-content .logo{
+    text-align: center;
+}
+.front-content .tag-line{
+    margin: 20px 0 80px;
+    font-size:20px;
+    font-weight: 300;
+    text-align: center;
+}
+.box-chooser h3{
+    letter-spacing:1px;
+    text-transform:uppercase;
+    text-align:center;
+    margin:0;
+    padding:20px 0 0;
+    font-weight:300;
+}
+.box-chooser{
+    background:#fff;
+    padding:20px;
+    transition:0.5s;
+    border-radius:5px;
+    margin-bottom:10px;
+}
+.box-chooser:hover{
+    box-shadow:1px 0px 20px rgba(64,64,64,0.1);
+    cursor:pointer;
+}
+.box-chooser-img {
+    height:160px;
+    overflow:hidden;
+}
+.box-chooser-img img{
+    width:100%;
+}
+.menu-front{
+    margin-top:50px;
+    text-align:center;
+    background:#fff;
+    padding:10px;
+}
+.menu-front a{
+    color:#666;
+    font-weight:300;
+    letter-spacing:2px;
+    
+}
+.copyright-front{
+    text-align:center;
+    margin-top:10px;
+    
+}
